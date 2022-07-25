@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-hero-section {
+    background:linear-gradient(45deg ,rgba(255, 255, 255, 0.8),rgba(255, 255, 255, 0.8)) url(../img/hero-bg.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.text-blue{
+    color: #124265 !important;
+}
+
+.btn-blue {
+    background-color: #124265 !important;
+    color: #fff;
+
+}
+
+#count-section1{
+    background:#f8fbfe ;
+}
+
+#count-section1 h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+
+#client-section img {
+    max-width: 45%;
+    filter: grayscale(100%);
+    transition: all 0.4s ease-in-out;
+}
+
+#client-section img:hover  {
+    filter: grayscale(0);
+    transform: scale(1.15);
+}
+
+.testimony-person img{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
